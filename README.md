@@ -66,6 +66,4 @@ ele vai listar todos containers criados.
 
 verifiquei que porta usada para acessar seu apache2 do docker _porta_ _8081_ entao pode acessar [localhost:8081](http://localhost:8081) ou IP local porta 8081.
 
-# cake4php
-# cake4php
 # cake4
