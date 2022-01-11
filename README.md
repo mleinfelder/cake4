@@ -8,12 +8,11 @@
 │   ├── config_ssh
 │   ├── Dockerfile
 │   ├── sites-available
-│   │   └── 000-default.conf
+│   │   └── 000-default.conf, 001-cake.conf
 │   └── sites-enabled
-│       └── 000-default.conf -> ../sites-available/000-default.conf
+│       └── 000-default.conf -> ../sites-available/000-default.conf, 001-cake.conf
 ├── docker-compose.yml
-├── lamp
-├── locations.tx
+├── composer.phar
 ├── mysql
 │   ├── datadir
 |- Readm.md
@@ -64,6 +63,6 @@ docker container ls
 
 ele vai listar todos containers criados.
 
-verifiquei que porta usada para acessar seu apache2 do docker _porta_ _8081_ entao pode acessar [localhost:8081](http://localhost:8081) ou IP local porta 8081.
+verifiquei que porta usada para acessar seu apache2 do docker _porta_ _8081_ entao pode acessar [localhost:8080](http://localhost:8080) ou IP local porta 8081.
 
 # cake4
