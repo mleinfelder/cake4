@@ -9,7 +9,7 @@ networks:
             name: internal
 services:
     web:
-        build: apache
+        build: docker-beast.nic.br:5000/apache
         ports:
             - 8080:80
         volumes:
