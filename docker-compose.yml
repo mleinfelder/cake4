@@ -25,7 +25,7 @@ services:
                 # ipv4_address: 172.0.0.3
                 ipv6_address: 2001:12ff:0:0:0:0:0:3
     mysql:
-        image: mysql:8
+        image: docker-beast.nic.br:5000/mysql:8
         env_file:
             - ./mysql/.env.bd
         ports:
